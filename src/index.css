@@ -37,3 +37,13 @@
 .project-count, .card-meta { transition: opacity .28s cubic-bezier(.22,1,.36,1) .08s; }.project-card.is-active .project-count, .project-card.is-active .card-meta { opacity: 1; }
 
 @media (max-width: 760px) { .plate-top i { transform: translateY(-355px) scale(.75) perspective(900px) rotateX(-66deg); }.plate-top i:first-child { transform: translateY(-382px) scale(.70) perspective(900px) rotateX(-67deg); }.plate-bottom i { transform: translateY(355px) scale(.75) perspective(900px) rotateX(66deg); }.plate-bottom i:first-child { transform: translateY(382px) scale(.70) perspective(900px) rotateX(67deg); } }
+.share-button { text-decoration: none; }
+.project-art > img { filter: none; }
+.project-wash { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62%, rgba(0, 0, 0, .18)); mix-blend-mode: normal; }
+.project-wash { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, .24)); }
+.card-meta { color: var(--card-text, #fff); }
+.card-meta p, .card-meta span { color: var(--card-text-muted, rgba(255,255,255,.78)); }
+.enter-mark { border-color: var(--card-line, rgba(255,255,255,.78)); }
+.project-count { color: var(--card-text-muted, rgba(255,255,255,.86)); }
+.detail-hero video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.name-button span { font-weight: 700; letter-spacing: .08em; }
